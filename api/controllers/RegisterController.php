@@ -1,18 +1,10 @@
 <?php
-namespace app\controllers;
+namespace api\controllers;
 
 use Yii;
 
-class ResisterController extends CommonController
+class RegisterController extends CommonController
 {
-    public function behaviors()
-    {
-        return [
-            'access' => [
-            ]
-        ];
-    }
-
     public function actionIndex(){
         echo 1111;die;
     }

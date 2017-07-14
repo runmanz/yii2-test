@@ -54,10 +54,13 @@ return [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
                 '' => 'site/index',
                 '<controller:[\w-]+>/<action:[\w-]+>'=>'<controller>/<action>',
-                '<controller:(post|comment)>/<id:\d+>/<action:(create|update|delete)>' => '<controller>/<action>',
-                '<controller:(post|comment)>/<id:\d+>' => '<controller>/view',
-                '<controller:(post|comment)>s' => '<controller>/index',
-                //'http://<user:[\w-]+>api.cn/<lang:[\w-]+>/profile' => 'user/profile',
+                'POST <controller:[\w-]+>s' => '<controller>/create', // 'mode' => UrlRule::PARSING_ONLY will be implicit here
+                '<controller:[\w-]+>s'      => '<controller>/index',
+                'PUT <controller:[\w-]+>/<id:\d+>'    => '<controller>/update',// 'mode' => UrlRule::PARSING_ONLY will be implicit here
+                'DELETE <controller:[\w-]+>/<id:\d+>' => '<controller>/delete', // 'mode' => UrlRule::PARSING_ONLY will be implicit here
+                '<controller:[\w-]+>/<id:\d+>' => '<controller>/view',
+                '<controller:[\w-]+>s/create' => '<controller>/create',
+                '<controller:[\w-]+>/<id:\d+>/<action:update|delete>' => '<controller>/<action>',
             ],
         ],
     ],

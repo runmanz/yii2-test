@@ -3,7 +3,7 @@ namespace api\models;
 
 use Yii;
 use yii\base\Model;
-
+use app\models\User;
 /**
  * Signup form
  */
@@ -12,7 +12,8 @@ class SignupForm extends Model
     public $username;
     public $email;
     public $password;
-
+    public $mobile;
+    public $usertype;
 
     /**
      * @inheritdoc
@@ -33,6 +34,8 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+            ['mobile','string','min'=>10],
+            ['usertype','integer'],
         ];
     }
 
@@ -48,7 +51,9 @@ class SignupForm extends Model
             $user->username = $this->username;
             $user->email = $this->email;
             $user->password = md5($this->password);
-            //$user->generateAuthKey();
+            $user->mobile = $this->mobile;
+            $user->usertype = $this->usertype;
+            $user->generateAuthKey();
             $user->save(false);
             $auth = yii::$app->authManager;
             $authorRole = $auth->getRole('author');

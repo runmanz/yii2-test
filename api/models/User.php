@@ -14,6 +14,8 @@ use yii\web\IdentityInterface;
  * @property string $password
  * @property string $email
  * @property string $mobile
+ * @property string $auth_token
+ * @property string $usertype
  */
 class User extends ActiveRecord implements IdentityInterface
 {
@@ -41,6 +43,10 @@ class User extends ActiveRecord implements IdentityInterface
     public function getId()
     {
         return $this->getPrimaryKey();
+    }
+    public function generateAuthKey()
+    {
+        $this->auth_token = Yii::$app->security->generateRandomString();
     }
     public static function findIdentity($id)
     {

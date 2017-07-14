@@ -51,7 +51,7 @@ return [
             'enableStrictParsing' => true,
             //'suffix' => '.html',
             'rules' => [
-                //['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
                 '' => 'site/index',
                 '<controller:[\w-]+>/<action:[\w-]+>'=>'<controller>/<action>',
                 '<controller:(post|comment)>/<id:\d+>/<action:(create|update|delete)>' => '<controller>/<action>',

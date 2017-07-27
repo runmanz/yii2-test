@@ -1,8 +1,10 @@
 <?php
 namespace api\controllers;
 
+use app\models\TeflApplicationClass;
 use Yii;
 use yii\base\InvalidParamException;
+use yii\db\Exception;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -12,7 +14,7 @@ use api\models\PasswordResetRequestForm;
 use api\models\ResetPasswordForm;
 use api\models\SignupForm;
 use api\models\ContactForm;
-
+use Faker\Provider\DateTime;
 /**
  * Site controller
  */
@@ -72,6 +74,23 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $str = array('1'=>'Low','2'=>'Middle','3'=>'High');
+        $transaction = Yii::$app->db->beginTransaction();
+        try{
+            foreach ($str as $k=>$v){
+                $model = new TeflApplicationClass();
+                $model->name_en = $v;
+                $model->p_id = 348;
+                $model->sort = $k;
+                $model->save();
+                var_dump($model);
+            }
+            $transaction->rollBack();
+        }catch (Exception $e){
+            $transaction->rollBack();
+            echo 111;
+        }
+        die;
         return $this->render('index');
     }
 
@@ -85,7 +104,16 @@ class SiteController extends Controller
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
-
+        $a = yii::$app->db->createCommand("select * from tf_time_test where time1=:time1",array(":time1"=>'-2147483648'))->queryOne();
+        echo $a['time'];
+        echo "<br>".date("Y-m-d H:i:s",$a['time1']);
+        $b = "1901-12-13 20:45:52";
+        $c = new \DateTime("1901-12-13 20:45:52");
+        echo "<br>".$c->getTimestamp()."<br>";
+        $d = new \DateTime();
+        $d->setTimestamp($c->getTimestamp());
+        echo date("Y-m-d H:i:s",$d->getTimestamp());
+        die;
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();

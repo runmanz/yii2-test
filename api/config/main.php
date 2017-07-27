@@ -11,6 +11,12 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'api\controllers',
+    'modules'=>[
+        'v3' => [
+            'class' => 'api\modules\v3\Module',
+            'basePath' => '@app/modules/v3',
+        ]
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-api',
@@ -52,6 +58,7 @@ return [
             //'suffix' => '.html',
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'v3\user'],
                 '' => 'site/index',
                 '<controller:[\w-]+>/<action:[\w-]+>'=>'<controller>/<action>',
                 'POST <controller:[\w-]+>s' => '<controller>/create', // 'mode' => UrlRule::PARSING_ONLY will be implicit here

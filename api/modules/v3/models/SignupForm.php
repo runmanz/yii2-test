@@ -1,9 +1,9 @@
 <?php
-namespace api\models;
+namespace api\modules\v3\models;
 
 use Yii;
 use yii\base\Model;
-use app\models\User;
+use api\modules\v3\models\User;
 /**
  * Signup form
  */

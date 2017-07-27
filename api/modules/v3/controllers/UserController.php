@@ -6,12 +6,12 @@
  * Time: 11:20
  */
 
-namespace api\controllers;
+namespace app\modules\v3\controllers;
 
 use Yii;
 use app\models\User;
 use yii\rest\Controller;
-use api\models\SignupForm;
+use api\modules\v3\models\SignupForm;
 use yii\filters\auth\HttpBasicAuth;
 
 class UserController extends Controller
@@ -45,9 +45,9 @@ class UserController extends Controller
 
     public function actionIndex(){
         if(yii::$app->user->can('updatePost')){
-            return User::find()->limit(10)->all();
+            return User::find()->limit(3)->all();
         }
-        return ['msg'=>'U can\'t see them'];
+        return ['msg'=>'U can\'t see them 3'];
     }
 
     public function actionCreate(){

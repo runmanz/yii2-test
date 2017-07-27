@@ -1,10 +1,10 @@
 <?php
-namespace  api\models;
+namespace  api\modules\v3\models;
 
 use Yii;
 use yii\base\Model;
 use yii\db\Exception;
-use app\models\User;
+use api\modules\v3\models\User;
 
 class LoginForm extends Model
 {

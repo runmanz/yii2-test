@@ -36,62 +36,16 @@ Tower Bridge International Education |  |  |  |  | Tower Bridge is an internatio
 The English Castle |  |  |  |  |  | Beiyuan Mo Li yuan 2nd floor, chaoyang, Beijing, China | Mandy |  |  | 18612567332 | theenglishcastle@qq.com |  | 否 | 0
 21Century Kindergarten |  |  |  |  | Beijing 21st Century Experimental Kindergartens were established with investment from the SIWA Group. |  | Steve Shi |  |  | 13901151062 | steve8015@qq.com |  | 否 | 0
 K&H International School |  |  |  |  |  | 1F, Bldg 83, No. 1198 Qinzhou North Rd, Shanghai, China | Colleen Wang |  |  | 18930121386 | colleen.wang@kaidun180.com |  | 否 | 0
-Nanjing Studio English Classroom | Private School | Jiangsu | Nanjing | 200-500人 | 
-
-	Nanjing Studio English Classroom is one of the best providers of private educational services in Nanjing.
-
-
-
-	Nanjing Studio English Classroom was founded in 2009 in Nanjing, Jiangsu Province, China. （Nanjing is an international an d cultural city which is located just to the north of Shanghai）. 
-
-We are expending rapidly, right now we have 3 branch schools all over Nanjing. Aiming on having 10 schools in the following 3 years. 
-
-We are the only registered English training school with Nanjing Education Bureau. based on that, we have lots of projects with different famous public elementary schools in Nanjing. 
-
-There are over 1,000 students studying in our school, they are not only 5-12 year old kids but also teenagers an d adults.
-
- | The third floor of Yellow River Mansion, Long Yuan West Road,Gulou District,Nanjing | Eason Cheng | annie@kzenglish.com |  | 15996339655 | eason@kzenglish.com | www.kzenglish.com | 是 | 15
+Nanjing Studio English Classroom | Private School | Jiangsu | Nanjing | 200-500人 | Nanjing Studio English Classroom is one of the best providers of private educational services in Nanjing.
+Nanjing Studio English Classroom was founded in 2009 in Nanjing, Jiangsu Province, China. （Nanjing is an international an d cultural city which is located just to the north of Shanghai）. We are expending rapidly, right now we have 3 branch schools all over Nanjing. Aiming on having 10 schools in the following 3 years.  We are the only registered English training school with  Nanjing Education Bureau. based on that, we have lots of projects with different famous public elementary schools in Nanjing. There are over 1,000 students studying in our school, they are not only 5-12 year old kids but also teenagers an d adults. | The third floor of Yellow River Mansion, Long Yuan West Road,Gulou District,Nanjing | Eason Cheng | annie@kzenglish.com |  | 15996339655 | eason@kzenglish.com | www.kzenglish.com | 是 | 15
 Stars Education | Private School | Tianjin | Tianjin | 10-50人 | Stars Eduction is an English training school for younge learners, age range from 3-15.  Located in the economic core area of Tianjin. We have a young an d energetic teacher team, all our local staff is very experienced in teaching young students. We welcome foreign teachers who love children an d with excellent english skill. | Binhai New Area Third Ave 21 | Carter |  |  | 18698154209 | carterqiu90@163.com |  | 是 | 1
 Rockies English School | Private School | Multiple Locations | Multiple Locations | 10-50人 | Rockies
 English School is a subsidiary of Rockies Education Management an d Consultation
 Company founded in 2001 by Canadian teachers. We are licensed by the Chinese
 government State Council to recruit foreign teachers for the purpose of work in
 China. | Room 803, Talent Service Building, 10 Huixian Street, High-Tech Industrial Zone | Jacky |  | 15942493609 | 15942493609 | rockiesenglish01@yahoo.com |  | 是 | 200
-Yiwu Qunxing Foreign Lang | Private School | Zhejiang | Jinhua | 1000人以上 | 
-
-	About the school
-
-
-
-	Yiwu Qunxing
-Foreign Languages School is located at No.577 Jichang Road, Yiwu City, Zhejiang
-Province. It was founded by Mr. Zhao Guoliang in 1995 as a boarding school from
-primary to senior high school.
-
-
-
-	Since introducing the Education Model
-of Cao Lunhua in 2014, Qunxing insists on the concepts of international
-philosophy, a diverse curriculum an d small-class teaching. The school is also
-committed to developing modern citizens who have a strong sense of innovation,
-responsibility an d practice. Through festivals and
-extracurricular activities, the school motivates students’ interests in
-learning an d broadens their horizons. Our highly advanced primary department
-offers Experimental classes, IC （International Curriculum） classes an d Girls’
-Classes, which are integrated into an organic whole. At Qunxing, students have
-many opportunities to experience a genuine western curriculum; be immerged in
-an English environment while enjoying it. The junior high department also
-offers Elite Classes an d IGCSE Classes. Recently, it has set up a systematic
-German Language class to allow students to master three languages an d have even
-more promising prospects.
-
-
-
-	The school is fully certified and
-accredited by the Chinese government an d the educational bureau to hire foreign
-teachers an d apply for all the legal documentation required.
-
- | Jichang Road No. 577 | Vivian Chen |  |  | 15068058856 | 842597571@qq.com | www.qunxing.net | 是 | 20
+Yiwu Qunxing Foreign Lang | Private School | Zhejiang | Jinhua | 1000人以上 | About the school Yiwu Qunxing Foreign Languages School is located at No.577 Jichang Road, Yiwu City, Zhejiang primary to senior high school.
+Since introducing the Education Model of Cao Lunhua in 2014, Qunxing insists on the concepts of international philosophy, a diverse curriculum an d small-class teaching. The school is also committed to developing modern citizens who have a strong sense of innovation, responsibility an d practice. Through festivals and extracurricular activities, the school motivates students’ interests in learning an d broadens their horizons. Our highly advanced primary department offers Experimental classes, IC （International Curriculum） classes an d Girls’ Classes, which are integrated into an organic whole. At Qunxing, students have many opportunities to experience a genuine western curriculum; be immerged in an English environment while enjoying it. The junior high department also offers Elite Classes an d IGCSE Classes. Recently, it has set up a systematic German Language class to allow students to master three languages an d have even more promising prospects. The school is fully certified and accredited by the Chinese government an d the educational bureau to hire foreign teachers an d apply for all the legal documentation required. | Jichang Road No. 577 | Vivian Chen |  |  | 15068058856 | 842597571@qq.com | www.qunxing.net | 是 | 20
 Zunyi Medical University | Public School | Guizhou | Zunyi | 1000人以上 | Zunyi Medical University is located in Zunyi, Guizhou, the southwestern part of China. It consists of Zunyi campus an d Zhuhai campus with 14964 students. | No.6 Xuefu Rd, Xinpu Distrcit | Annie Liu | William Wu | 0851-28643571 | 18375114047 | annieleo9225@126.com | http://www.zmc.edu.cn | 否 | 5
 E-baby kindergarten |  |  |  |  |  |  | carolina |  |  | 18810385783 | 18810385783@163.com |  | 否 | 0
 英德仪国际教育 |  |  |  |  | EDI is a kids an d teens language training center,we offer the language training,kids club an d parents club
@@ -109,24 +63,8 @@ Action English |  |  |  |  | Action English School in Lianyungang, China has rec
 Best English Learning Center |  |  |  |  | Best English is a total English immersion training institute established in 2011. |  | Beauty |  |  | 13827712660 | beauty@fsbest.com.cn |  | 否 | 0
 Aceleader English |  |  |  |  | Focusing on adult students, Aceleader English uses bespoke curricula to help students improve their linguistic ability through intensive conversational-based classes. |  | Jay |  |  | 15810224749 | james@aceleader.com.cn |  | 否 | 0
 WEBi English | Private School | Taiwan | Taiwai | 1000人以上 | 
-	
-		About Us
-	
-	
-
-		Web International English is one of China´s most recognized an d respected brands. Since its inception in 1998, Web has gone on to establish over 120 training centers throughout China an d now stands at the forefront of the language training industry.
-	
-
-
-	
-
-		We believe in making a difference. Web International English stands for quality an d innovation in education. Because of this, we draw talented people to work at Web an d we continually invest in the use of technology to stay ahead of the curve. We deliver high-quality service by empowering students to achieve communicative excellence in English, helping them function effectively in a globalized world.
-	
-
-
-
-
- | 33F,Jianhui Building，No 922Hengshan Road | Belle |  |  | 18917849152 | bell.wkx@webi.com.cn | http://career.webi.com.cn/CompanyOverview/ | 是 | 100
+About Us	Web International English is one of China´s most recognized an d respected brands. Since its inception in 1998, Web has gone on to establish over 120 training centers throughout China an d now stands at the forefront of the language training industry.
+We believe in making a difference. Web International English stands for quality an d innovation in education. Because of this, we draw talented people to work at Web an d we continually invest in the use of technology to stay ahead of the curve. We deliver high-quality service by empowering students to achieve communicative excellence in English, helping them function effectively in a globalized world. | 33F,Jianhui Building，No 922Hengshan Road | Belle |  |  | 18917849152 | bell.wkx@webi.com.cn | http://career.webi.com.cn/CompanyOverview/ | 是 | 100
 GVE Online Education Inc |  |  |  |  |  | 天津市南开区红旗南路与凌宾路交口苏商科技大厦1308室 | Chenny |  |  | 18602679293 | cwang@gveoe.com |  | 否 | 0
 International Institution | Private School | Sichuan | Mianyang | 1000人以上 | Name: International Institution of Education （i2）
 

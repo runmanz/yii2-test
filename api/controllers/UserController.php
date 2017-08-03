@@ -16,16 +16,16 @@ use yii\filters\auth\HttpBasicAuth;
 
 class UserController extends Controller
 {
-    public $classClass;
+    public $modelClass;
     public $authority = 'isAuthor';
-   /* public function behaviors()
+    public function behaviors()
     {
         $behaviors = parent::behaviors();
-        $behaviors['authenticator'] = [
+        /*$behaviors['authenticator'] = [
             'class' => HttpBasicAuth::className(),
-        ];
+        ];*/
         return $behaviors;
-    }*/
+    }
     public function execute($user, $item, $params)
     {
         return isset($params['post']) ? $params['post']->createdBy == $user : false;
@@ -47,6 +47,7 @@ class UserController extends Controller
         if(yii::$app->user->can('updatePost')){
             return User::find()->limit(10)->all();
         }
+        return User::find()->limit(10)->all();
         return ['msg'=>'U can\'t see them'];
     }
 

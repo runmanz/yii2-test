@@ -2,7 +2,7 @@
 namespace api\controllers;
 
 use Yii;
-use yii\web\Controller;
+use yii\rest\Controller;
 
 class CommonController extends Controller
 {

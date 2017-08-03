@@ -36,6 +36,10 @@ api
     config/              contains backend configurations
     controllers/         contains Web controller classes
     models/              contains backend-specific model classes
+    modules/             contains api modules versions
+        v3/              version 3
+            controllers/ contains api controller classes of version 3
+            models/      contains api-specific model classes of version 3
     runtime/             contains files generated during runtime
     tests/               contains tests for backend application    
     views/               contains view files for the Web application

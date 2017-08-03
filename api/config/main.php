@@ -18,6 +18,9 @@ return [
         ]
     ],
     'components' => [
+        'authManager' => [
+            'class' => 'CachedDbAuthManager',
+        ],
         'request' => [
             'csrfParam' => '_csrf-api',
             'parsers' => [
@@ -58,7 +61,8 @@ return [
             //'suffix' => '.html',
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'v3\user'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'v3/user'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'v3/site'],
                 '' => 'site/index',
                 '<controller:[\w-]+>/<action:[\w-]+>'=>'<controller>/<action>',
                 'POST <controller:[\w-]+>s' => '<controller>/create', // 'mode' => UrlRule::PARSING_ONLY will be implicit here
@@ -66,6 +70,7 @@ return [
                 'PUT <controller:[\w-]+>/<id:\d+>'    => '<controller>/update',// 'mode' => UrlRule::PARSING_ONLY will be implicit here
                 'DELETE <controller:[\w-]+>/<id:\d+>' => '<controller>/delete', // 'mode' => UrlRule::PARSING_ONLY will be implicit here
                 '<controller:[\w-]+>/<id:\d+>' => '<controller>/view',
+                '<controller:[\w-]+>s/<id:\d+>' => '<controller>/view',
                 '<controller:[\w-]+>s/create' => '<controller>/create',
                 '<controller:[\w-]+>/<id:\d+>/<action:update|delete>' => '<controller>/<action>',
             ],

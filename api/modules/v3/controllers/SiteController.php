@@ -1,10 +1,10 @@
 <?php
 namespace app\modules\v3\controllers;
 
+use app\models\User;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
-use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use api\modules\v3\models\LoginForm;
@@ -12,18 +12,19 @@ use api\modules\v3\models\PasswordResetRequestForm;
 use api\modules\v3\models\ResetPasswordForm;
 use api\modules\v3\models\SignupForm;
 use api\modules\v3\models\ContactForm;
-
+use api\common\controllers\CommonController;
 /**
  * Site controller
  */
-class SiteController extends Controller
+class SiteController extends CommonController
 {
     /**
      * @inheritdoc
      */
     public function behaviors()
     {
-        return [
+        $behaviors = parent::behaviors();
+        /*$behaviors[] = [
             'access' => [
                 'class' => AccessControl::className(),
                 'only' => ['logout', 'signup'],
@@ -39,14 +40,9 @@ class SiteController extends Controller
                         'roles' => ['@'],
                     ],
                 ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
-        ];
+            ]
+        ];*/
+        return $behaviors;
     }
 
     /**
@@ -72,9 +68,18 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        return Yii::$app->db->createCommand("select id,username from tf_user order by id asc")->queryAll();
     }
-
+    public function actionView(){
+        $user = User::find()->where('`id`=:id',[':id'=>$_GET['id']])->one();
+        if($user){
+            $out['id'] = $user['id'];
+            $out['username'] = $user['username'];
+        }else{
+            $out = "We didn't find what you want";
+        }
+        return $out;
+    }
     /**
      * Logs in a user.
      *

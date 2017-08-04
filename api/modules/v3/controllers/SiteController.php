@@ -73,8 +73,9 @@ class SiteController extends CommonController
     public function actionView(){
         $user = User::find()->where('`id`=:id',[':id'=>$_GET['id']])->one();
         if($user){
-            $out['id'] = $user['id'];
-            $out['username'] = $user['username'];
+//            $out['id'] = $user['id'];
+//            $out['username'] = $user['username'];
+            $out = $user;
         }else{
             $out = "We didn't find what you want";
         }

@@ -11,10 +11,10 @@ return [
         ],
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
-            'itemTable' => 'tf_auth_item',               //�ñ������Ȩ��Ŀ������ע������ɫ��Ȩ�ޣ���Ĭ�ϱ���Ϊ "auth_item" ��
-            'assignmentTable' => 'tf_auth_assignment',     //�ñ������Ȩ��Ŀ���û���ָ�������Ĭ�ϱ���Ϊ "auth_assignment"��
-            'itemChildTable' => 'tf_auth_item_child',      //�ñ������Ȩ��Ŀ�Ĳ�ι�ϵ��Ĭ�ϱ���Ϊ "auth_item_child"��
-            'ruleTable' => 'tf_auth_rule',                 //�ñ���Ź���Ĭ�ϱ���Ϊ "auth_rule"��
+            'itemTable' => 'tf_auth_item',               //该表存放授权条目（译者注：即角色和权限）。默认表名为 "auth_item" 。
+            'assignmentTable' => 'tf_auth_assignment',     //该表存放授权条目对用户的指派情况。默认表名为 "auth_assignment"。
+            'itemChildTable' => 'tf_auth_item_child',      //该表存放授权条目的层次关系。默认表名为 "auth_item_child"。
+            'ruleTable' => 'tf_auth_rule',                 //该表存放规则。默认表名为 "auth_rule"。
         ],
     ],
 ];
